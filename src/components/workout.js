@@ -18,6 +18,7 @@ export const Workout = () => {
             duration: "45 mins",
             category: "Yoga",
             imgUrl: workImg1,
+            alt: "Morning Energizing Flow",
             description: "Start your day with a gentle, energizing flow to awaken your body and mind.",
         },
         {
@@ -28,6 +29,7 @@ export const Workout = () => {
             duration: "15 mins",
             category: "Yoga",
             imgUrl: workImg2,
+            alt: "Quick Morning Smile",
             description: "A short, refreshing practice designed to put a smile on your face and brighten your morning.",
         },
         {
@@ -38,6 +40,7 @@ export const Workout = () => {
             duration: "30 mins",
             category: "HIIT",
             imgUrl: workImg3,
+            alt: "High-Intensity Burn",
             description: "Challenge yourself with this high-energy, full-body workout designed to burn calories fast.",
         },
         {
@@ -48,6 +51,7 @@ export const Workout = () => {
             duration: "60 mins",
             category: "Strength",
             imgUrl: workImg4,
+            alt: "Strength Training Basics",
             description: "Build strength and endurance with a comprehensive, full-body workout.",
         },
         // Add more workout objects as needed

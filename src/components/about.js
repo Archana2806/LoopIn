@@ -42,19 +42,19 @@ export const About = () => {
                             </p>
                             <Carousel responsive={responsive} infinite={true} className="about-slider">
                                 <div className="item">
-                                    <img src={per1}  />
+                                    <img src={per1}  alt="Meditation"/>
                                     <h5>Meditation</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={per2}  />
+                                    <img src={per2} alt="HIIT" />
                                     <h5>HIIT</h5>
                                 </div>
                                 <div className="item">
-                                     <img src={per3}  />
+                                     <img src={per3} alt="Cardio" />
                                     <h5>Cardio</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={per4}  />
+                                    <img src={per4}  alt="Self Defense"/>
                                     <h5>Self Defense</h5>
                                 </div>
                             </Carousel>
@@ -63,7 +63,7 @@ export const About = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-left" src={colorSharp} />
+            <img className="background-image-left" src={colorSharp} alt="Colorsharp" />
 
         </section>
     );

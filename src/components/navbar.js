@@ -36,7 +36,7 @@ export const NavBar = () => {
             <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
                 <Container>
                     <Navbar.Brand href="/">
-                        <img src={logo} />
+                        <img src={logo} alt='loop logo'/>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav">
                         <span className="navbar-toggler-icon"></span>
@@ -51,9 +51,9 @@ export const NavBar = () => {
                         </Nav>
                         <span className='navbar-text'>
                             <div className='social-icon'>
-                                <a href='profile.js'><img src={profile}  /></a>
-                                <a href='wishlist.js'><img src={wishlist} /></a>
-                                <a href='cart.js'><img src={cart} /></a>
+                                <a href='profile.js'><img src={profile} alt='profile' /></a>
+                                <a href='wishlist.js'><img src={wishlist} alt='wishlist'/></a>
+                                <a href='cart.js'><img src={cart} alt='cart'/></a>
                             </div>
                             <HashLink to='#connect'>
                                 <button className='vvd'><span>Sign Up</span></button>
