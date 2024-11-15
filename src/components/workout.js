@@ -101,7 +101,7 @@ export const Workout = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-right" src={colorSharp2} />
+            <img className="background-image-right" src={colorSharp2} alt="bgimage" />
         </section>
     );
 }
