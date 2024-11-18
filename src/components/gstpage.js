@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Navbar, Container, Form, Button, Row, Col } from "react-bootstrap";
+import { Navbar, Container, Form, Button } from "react-bootstrap";
 import logo from "../assets/img/logo.png";
 import { useNavigate } from "react-router-dom";
 
