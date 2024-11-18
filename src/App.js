@@ -56,7 +56,7 @@ function App() {
 
           <Route path="/sellerlogin" element={<SellerLogin />} />
           <Route path="/sregister" element={<SRegister />} />
-          <Route path="/gstpage" element={<GstPage />} />
+          <Route path="/GSTPage" element={<GstPage />} />
           <Route path="/sellerdetails" element={<SellerDetails />} />
           <Route path="/ship_pref" element={<ShipPreference />} />
           <Route path="/bankdetails" element={<BankDetails />} />
