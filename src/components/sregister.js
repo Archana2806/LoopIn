@@ -8,7 +8,7 @@ export const SRegister = () => {
   const handleRegisterSubmit = (e) => {
     e.preventDefault();
     // Redirect to the GST page after registration
-    navigate("/gstpage");
+    navigate("/GSTPage");
   };
 
   return (
@@ -16,7 +16,7 @@ export const SRegister = () => {
       <Navbar bg="light" expand="lg">
         <Container>
           <Navbar.Brand href="/">
-            <img src={logo} alt="Seller logo" />
+            <img src={logo} alt="logo" />
           </Navbar.Brand>
         </Container>
       </Navbar>
@@ -69,9 +69,9 @@ export const SRegister = () => {
 
             <Row className="mt-3">
               <Col xs={12}>
-                <p className="text-center">
+                <p className="text-center" style={{ color: 'black' }}>
                   Already have an account?{" "}
-                  <a href="/login" className="login-link">
+                  <a href="/sellerlogin" className="login-link">
                     Log In Here
                   </a>
                 </p>

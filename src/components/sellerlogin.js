@@ -8,7 +8,7 @@ export const SellerLogin = () => {
   const handleLoginSubmit = (e) => {
     e.preventDefault();
     // Redirect to the GST page after login
-    navigate("/gstpage");
+    navigate("/GSTPage");
   };
 
   return (
@@ -62,9 +62,9 @@ export const SellerLogin = () => {
 
             <Row className="mt-3 justify-content-center">
               <Col xs={12} className="d-flex justify-content-center">
-                <p className="text-center">
+                <p className="text-center" style={{ color: 'black' }}>
                   Don’t have an account?{" "}
-                  <a href="/register" className="register-link">
+                  <a href="/sregister" className="register-link">
                     Register Here
                   </a>
                 </p>
