@@ -11,7 +11,7 @@ import { Seller } from './components/seller';
 import { SellerNavBar } from './components/seller_navbar';
 import { SellerLogin } from './components/sellerlogin.js';
 import { SRegister } from './components/sregister.js';
-import { GSTPage } from "./components/gstpage.js";
+import { GstPage } from './components/GSTPage.js';
 import { SellerDetails } from './components/sellerdetails.js';
 import { ShipPreference } from './components/ship_pref.js';
 import { BankDetails } from './components/bankdetails.js';
@@ -56,7 +56,7 @@ function App() {
 
           <Route path="/sellerlogin" element={<SellerLogin />} />
           <Route path="/sregister" element={<SRegister />} />
-          <Route path="/gstpage" element={<GSTPage />} />
+          <Route path="/gstpage" element={<GstPage />} />
           <Route path="/sellerdetails" element={<SellerDetails />} />
           <Route path="/ship_pref" element={<ShipPreference />} />
           <Route path="/bankdetails" element={<BankDetails />} />

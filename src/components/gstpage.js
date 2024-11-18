@@ -3,7 +3,7 @@ import { Navbar, Container, Form, Button, Row, Col } from "react-bootstrap";
 import logo from "../assets/img/logo.png";
 import { useNavigate } from "react-router-dom";
 
-export const GSTPage = () => {
+export const GstPage = () => {
    const navigate = useNavigate();
   const [files, setFiles] = useState([]);
 
