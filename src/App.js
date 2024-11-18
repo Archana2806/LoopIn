@@ -11,7 +11,7 @@ import { Seller } from './components/seller';
 import { SellerNavBar } from './components/seller_navbar';
 import { SellerLogin } from './components/sellerlogin.js';
 import { SRegister } from './components/sregister.js';
-import { GstPage } from './components/GSTPage.js';
+import { GstPage } from './components/gstpage.js';
 import { SellerDetails } from './components/sellerdetails.js';
 import { ShipPreference } from './components/ship_pref.js';
 import { BankDetails } from './components/bankdetails.js';
