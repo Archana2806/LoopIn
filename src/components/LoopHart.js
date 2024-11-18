@@ -12,7 +12,7 @@ export const LoopHart = () => {
                     </Col>
                     <Col md={6} xl={7}>
                         <div className="hrv-image-bx">
-                            <img src={Ring} alt="HRV Tracker" style={{ width: '100px', height: '100px' }} />
+                            <img src={Ring} alt="HRV Tracker" style={{ width: '150px', height: '150px' }} />
                         </div>
                     </Col>
                 </Row>
