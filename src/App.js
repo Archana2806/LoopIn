@@ -43,8 +43,7 @@ function App() {
           />
 
           {/* Seller page */}
-          <Route 
-            path="/seller" 
+          <Route path="/selleraccount" 
             element={
               <>
                 <SellerNavBar />
