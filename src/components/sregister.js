@@ -8,7 +8,7 @@ export const SRegister = () => {
   const handleRegisterSubmit = (e) => {
     e.preventDefault();
     // Redirect to the GST page after registration
-    navigate("/GSTPage");
+    navigate("/Gstverification");
   };
 
   return (

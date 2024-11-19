@@ -8,7 +8,7 @@ export const SellerLogin = () => {
   const handleLoginSubmit = (e) => {
     e.preventDefault();
     // Redirect to the GST page after login
-    navigate("/GSTPage");
+    navigate("/Gstverification");
   };
 
   return (
